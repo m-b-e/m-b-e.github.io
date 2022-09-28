@@ -8,17 +8,13 @@ html, body {
   height: 100%;
 }
 @font-face {
-  font-family: BerlinFont;
-  src: url(BerlinType-Regular.otf);
-}
-
-div {
-  font-family: BerlinFont;
+  font-family: "BerlinTypeWeb-Regular";
+  src: url("assets/fonts/WEB/BerlinTypeWeb-Regular.woff") format("woff");
 }
 
 body {
   color: #444;
-  font-family: 'BerlinFont', sans-serif;
+  font-family: 'BerlinTypeWeb-Regular', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
