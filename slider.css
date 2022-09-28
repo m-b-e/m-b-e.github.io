@@ -11,6 +11,10 @@ html, body {
   font-family: "BerlinTypeWeb-Regular";
   src: url("assets/fonts/WEB/BerlinTypeWeb-Regular.woff") format("woff");
 }
+@font-face {
+  font-family: "BerlinTypeWeb-Bold";
+  src: url("assets/fonts/WEB/BerlinTypeWeb-Bold.woff") format("woff");
+}
 
 body {
   color: #444;
