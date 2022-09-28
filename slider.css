@@ -7,10 +7,18 @@
 html, body {
   height: 100%;
 }
+@font-face {
+  font-family: BerlinFont;
+  src: url(BerlinType-Regular.otf);
+}
+
+div {
+  font-family: BerlinFont;
+}
 
 body {
   color: #444;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'BerlinFont', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
