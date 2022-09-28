@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- version 1 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" href="slider.css">
 <div class="slider">
@@ -8,11 +8,11 @@
   <input type="radio" name="slider" title="slide4" class="slider__nav"/>
   <div class="slider__inner">
     <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
-      <h2 class="slider__caption">Die Gesamkosten des Bereiches Soziale Sicherung betragen rund X Mio. €.</h2>
+      <h2 class="slider__caption">Die Gesamtkosten des Bereiches Soziale Sicherung betragen rund X Mio. €.</h2>
       <p class="slider__txt">Das ist ein Anstieg von mehr als 10% im Vergleich zu 2021!</p>
     </div>
     <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
-      <h2 class="slider__caption">Den größten Ausgabenblock im Bereich der materiellen Hilfen für bedürftige Menschen bilden die Zahlungen für die „Kosten der Unterkunft“ (KdU) von ALG II-Empfängerinnen und Empfängern.</h2>
+      <h2 class="slider__caption">Den größten Ausgabenblock im Bereich der materiellen Hilfen bilden die Zahlungen für die „Kosten der Unterkunft“ (KdU) von ALG II-Empfänger:innen.</h2>
       <p class="slider__txt">Die im Jahr 2018 angefallenen Ausgaben von rd. 1.500 Mio. € wurden aufgrund gesetzlicher Vorgaben zu 52 % (rd. 781 Mio. €) durch das Land Berlin finanziert.</p>
     </div>
     <div class="slider__contents"><i class="slider__image fa fa-television"></i>
@@ -25,4 +25,70 @@
     </div>
   </div>
 </div>
-</html>
+</html> -->
+
+<section class="carousel" aria-label="Gallery">
+  <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper">
+        <a href="#carousel__slide4"
+           class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+           class="carousel__next">Go to next slide</a>
+      </div>
+      <div class="slider__contents">
+      <h2 class="slider__caption">Die Gesamtkosten des Bereiches Soziale Sicherung betragen rund X Mio. €.</h2>
+      <p class="slider__txt">Das ist ein Anstieg von mehr als 10% im Vergleich zu 2021!</p>
+    </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide1"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide3"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide2"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide4"
+         class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide4"
+        tabindex="0"
+        class="carousel__slide">
+      <div class="carousel__snapper"></div>
+      <a href="#carousel__slide3"
+         class="carousel__prev">Go to previous slide</a>
+      <a href="#carousel__slide1"
+         class="carousel__next">Go to first slide</a>
+    </li>
+  </ol>
+  <aside class="carousel__navigation">
+    <ol class="carousel__navigation-list">
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide1"
+           class="carousel__navigation-button">Go to slide 1</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide2"
+           class="carousel__navigation-button">Go to slide 2</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide3"
+           class="carousel__navigation-button">Go to slide 3</a>
+      </li>
+      <li class="carousel__navigation-item">
+        <a href="#carousel__slide4"
+           class="carousel__navigation-button">Go to slide 4</a>
+      </li>
+    </ol>
+  </aside>
+</section>
